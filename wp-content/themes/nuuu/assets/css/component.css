@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.cbp-af-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background:transparent;		   
+	z-index: 99;
+	-webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    /*border-bottom:1px solid #e8e9ee !important;*/
+	
+}
+
+.cbp-af-header.cbp-af-header-shrink {
+	position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    background: #fff;
+	box-shadow: 0px 0px 15px 0px rgb(72 73 121 / 15%);
+}
+
+
+
+@media screen and (max-width:1199px){
+.{
+    transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -webkit-transition: all ease-in-out .3s;
+    margin-top: 0px;
+}
+
+	}
+
+@media screen and (max-width:991px){
+    
+    
+
+	}	
+@media all and (max-width:767px){
+
+
+}
+
+@media only screen and (max-width: 575px){
+
+
+}
+
+
+
+@media all and (max-width:479px){
+
+
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="297px" height="290px" viewBox="19.5 30.745 297 290" enable-background="new 19.5 30.745 297 290" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="336" height="342"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g id="Square_4" clip-path="url(#SVGID_2_)">
+		<path id="Rectangle_6" display="none" fill="#FFC73C" d="M19.5,30.745h257c22.091,0,40,17.909,40,40v210c0,22.091-17.909,40-40,40
+			h-217c-22.091,0-40-17.909-40-40V30.745L19.5,30.745z"/>
+		
+			<linearGradient id="Ellipse_15_1_" gradientUnits="userSpaceOnUse" x1="97.9668" y1="188.4096" x2="97.3198" y2="189.0066" gradientTransform="matrix(38.136 74.844 74.844 -38.136 -17597.248 -36.0028)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#FFC73C"/>
+		</linearGradient>
+		<circle id="Ellipse_15" opacity="0.15" fill="url(#Ellipse_15_1_)" enable-background="new    " cx="249.5" cy="77.745" r="42"/>
+		
+			<linearGradient id="Ellipse_14_2_" gradientUnits="userSpaceOnUse" x1="104.2046" y1="192.3196" x2="103.5691" y2="192.9061" gradientTransform="matrix(11.4499 22.471 22.471 -11.4499 -5461.6475 167.8812)">
+			<stop  offset="0.4132" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.5212" style="stop-color:#FFF2D2"/>
+			<stop  offset="0.6885" style="stop-color:#FFE092"/>
+			<stop  offset="0.8299" style="stop-color:#FFD263"/>
+			<stop  offset="0.938" style="stop-color:#FFCA47"/>
+			<stop  offset="1" style="stop-color:#FFC73C"/>
+		</linearGradient>
+		
+			<circle id="Ellipse_14" opacity="0.15" fill="url(#Ellipse_14_2_)" enable-background="new    " cx="56.171" cy="296.5" r="12.61"/>
+		
+			<linearGradient id="Ellipse_14_3_" gradientUnits="userSpaceOnUse" x1="102.7853" y1="200.7806" x2="101.8726" y2="201.6228" gradientTransform="matrix(11.4499 22.471 22.471 -11.4499 -5461.6475 167.8812)">
+			<stop  offset="0.4132" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.5212" style="stop-color:#FFF2D2"/>
+			<stop  offset="0.6885" style="stop-color:#FFE092"/>
+			<stop  offset="0.8299" style="stop-color:#FFD263"/>
+			<stop  offset="0.938" style="stop-color:#FFCA47"/>
+			<stop  offset="1" style="stop-color:#FFC73C"/>
+		</linearGradient>
+		
+			<circle id="Ellipse_14_1_" opacity="0.15" fill="url(#Ellipse_14_3_)" enable-background="new    " cx="231.387" cy="162.966" r="18.109"/>
+	</g>
+</g>
+</svg>

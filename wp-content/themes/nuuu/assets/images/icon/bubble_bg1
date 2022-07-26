@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="297px" height="290px" viewBox="16 19 297 290" enable-background="new 16 19 297 290" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="336" height="342"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g id="Square_1" clip-path="url(#SVGID_2_)">
+		<path id="Rectangle_6" display="none" fill="#FFC73C" d="M56,19h217c22.091,0,40,17.909,40,40v250l0,0H56
+			c-22.091,0-40-17.909-40-40V59C16,36.909,33.909,19,56,19z"/>
+		
+			<linearGradient id="Ellipse_14_1_" gradientUnits="userSpaceOnUse" x1="94.9931" y1="183.5817" x2="94.3461" y2="184.1787" gradientTransform="matrix(35.4999 -76.1299 -76.1299 -35.4999 10701.7891 13803.8242)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#6A4EEE"/>
+		</linearGradient>
+		<circle id="Ellipse_14" opacity="0.15" fill="url(#Ellipse_14_1_)" enable-background="new    " cx="66" cy="68" r="42"/>
+		
+			<linearGradient id="Ellipse_16_1_" gradientUnits="userSpaceOnUse" x1="98.0168" y1="185.1137" x2="97.3698" y2="185.7107" gradientTransform="matrix(84 0 0 -84 -7947 15824)">
+			<stop  offset="0" style="stop-color:#FF7B95"/>
+			<stop  offset="1" style="stop-color:#6A4EEE"/>
+		</linearGradient>
+		<circle id="Ellipse_16" opacity="0.15" fill="url(#Ellipse_16_1_)" enable-background="new    " cx="261" cy="251" r="42"/>
+		
+			<linearGradient id="Ellipse_15_1_" gradientUnits="userSpaceOnUse" x1="104.0718" y1="181.5285" x2="103.4248" y2="182.1255" gradientTransform="matrix(26 0 0 -26 -2510 4808)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#6A4EEE"/>
+		</linearGradient>
+		<circle id="Ellipse_15" opacity="0.15" fill="url(#Ellipse_15_1_)" enable-background="new    " cx="188" cy="81" r="13"/>
+	</g>
+</g>
+</svg>

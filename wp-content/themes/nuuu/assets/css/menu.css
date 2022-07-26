@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+.cbp-af-header{position:absolute;top:0;left:0;width:100%;z-index: 30;background: transparent;   -webkit-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-ms-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;transition: all 0.3s ease-out;  }
+.cbp-af-header.cbp-af-header-shrink {position: fixed;top: 0;width: 100%;left: 0;right: 0;background: #fff;box-shadow: 0px 0px 15px 0px rgb(72 73 121 / 15%);}
+.navigation_area .navbar{padding:15px 0;-webkit-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-ms-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;transition: all 0.3s ease-out;  }
+.cbp-af-header.cbp-af-header-shrink .navigation_area .navbar{padding:10px 0;}
+.navigation_area .logo_area{display: inline-flex;align-items: center;   }
+.navigation_area .logo_area .icon{margin-right: 5px;/* margin-top: 5px; *//* width: 27px;    */}
+/* .navigation_area .logo_area .txt{font-family: Inter;font-style: normal;font-weight: 500;font-size: 42px;line-height: 51px;letter-spacing: -0.07em;color: #8200ff;    } */
+.top_header_cell_right{display: flex;flex-wrap: wrap;align-items: center;margin: 0 -12.5px;justify-content: flex-end;}
+.top_header_button{display: flex;margin: 0;padding: 0;/*margin: 0 2.5px;*/ align-items: center;}
+.top_header_button > * {flex: 0 0 auto;/*padding: 0 10px;*/font-size: 18px;   line-height: 26px;display: block;z-index: 1;/*position: relative;*/margin: 0 20px;color:#231f20;}
+.top_header_button .location_btn{}
+.top_header_button .login_btn{font-weight: 500;font-size: 14px;line-height: 17px;background: #8200ff;border: 1px solid #8200ff;color: #FFFFFF;padding: 10px 20px 11px;border-radius: 5px;    -webkit-transition: all .3s ease;-o-transition: all .3s ease;transition: all .3s ease; }
+.header_search_area{}
+.header_search_areainner{display:flex;border: 1.3px solid #8200ff;/*padding: 5px;*/border-radius: 7px;}
+.header_search_areainner .header_search_btn{border:0;background:transparent;margin-right:10px;}
+.header_search_areainner .header_search_btn img{}
+.is-form-style{/*border-radius:7px;border: 1.3px solid #8200ff;*/display:flex;flex-direction:row-reverse;}
+.header_search_area .is-form-style input.is-search-input{border:none!important;border-radius:7px;}
+.header_search_area .is-form-style input.is-search-submit, .is-search-icon{background:transparent!important;border:none!important;}
+
+.is-form-style .is-search-submit path{fill: #8200ff!important;}
+.header_search_area .is-search-icon{padding-top:3px!important;}
+.is-search-icon svg{width:30px!important;}
+
+#searchform div{display:flex;}
+#searchform #searchsubmit{border: 0;background-color:transparent;width:22px;height:22px;font-size:0;}
+.header_search_areainner .header_search_input,#searchform input#s{border:0;background:transparent;font-weight: 400;font-size: 16px;line-height: 22px;color: #231f20;}
+.header_search_areainner .header_search_input::-webkit-input-placeholder, 
+.header_search_areainner .header_search_input:-ms-input-placeholder,
+.header_search_areainner .header_search_input ::placeholder,
+#searchform input#s::-webkit-input-placeholder,
+#searchform input#s ::placeholder,
+#searchform input#s :-ms-input-placeholder
+{color:#CACACA;}
+.search_btn.mobile_search{display:none;}
+.navigation_area .desktop_menu{display:block;padding:0px;background:none;border:0;}
+.navigation_area .desktop_menu img{width:24px;}
+.navigation_area .mobile_menu{display:none;padding:0px;background:none;border:0;}
+.navigation_area .mobile_menu img{width:24px;}
+.navigation_area .navbar-nav li{}
+.navigation_area .navbar-nav li a{font-family: Inter;font-style: normal;font-weight: normal;font-size: 18px;line-height: 22px;color: #444444;padding:10px 10px;}
+.navigation_area .navbar-nav li.active a{color:#8200ff;font-weight:600}
+.navbar-expand-lg .navbar-nav .sub-menu {position: absolute;border: 0;background-color: #fcfbff;left:10px;width:245px; margin:0px 0 0;border-radius: 0.25rem;padding:0.5rem 0;}
+.navbar-expand-lg .navbar-nav .sub-menu .menu-item a:hover{color: #8200ff;text-decoration: none;background-color: transparent;}
+.navbar-expand-lg .navbar-nav .menu-item-has-children{position:relative;cursor:pointer;}
+.navbar-expand-lg .navbar-nav .menu-item-has-children::after{background-image: url(../images/icon/drop_down4.svg);
+	width: 13px;height: 7px;background-repeat: no-repeat;background-position: center;
+	background-size: cover;border: 0;margin-left: 0px;position: relative;top: 4px;left: -5px; display: inline-block;
+    vertical-align: 0.255em;content: "";}
+.menu-top-menu-container .menu li.menu-item ul.sub-menu li a {
+    padding:0.3rem 1.5rem;display:block;font-size:1rem;}
+.menu-top-menu-container .menu{display:flex;}
+.menu-top-menu-container .menu li.menu-item ul.sub-menu{display:none;}
+.menu-top-menu-container .menu li.menu-item-has-children:hover ul.sub-menu{display:block;}
+.capmaign_header_area{padding:20px 0;}
+.capmaign_header_areainner {display:flex;}
+.capmaign_header_areainner .left_header{display: flex;flex-wrap: wrap;align-items: center;width: 100%;}
+.capmaign_header_areainner .right_header{display: flex;flex-wrap: wrap;align-items: center;justify-content: flex-end;width: 100%;}
+.capmaign_header_areainner .logo_area{display: flex;flex-wrap: wrap;align-items: center;justify-content: center;text-align: center;margin-left: 10px;margin-right: 10px;flex: 0 0 auto;}
+.capmaign_header_areainner .logo_area .logo_link {display: inline-flex;align-items: center;}
+.capmaign_header_areainner .logo_area .logo_link .icon {margin-right: 5px;margin-top: 5px;}
+
+/* .capmaign_header_areainner .logo_area .logo_link .txt {font-family: Inter;font-style: normal;font-weight: 500;font-size: 42px;line-height: 51px;letter-spacing: -0.07em;color: #8200ff;} */
+
+.capmaign_header_areainner .open_account_link_area{}
+.capmaign_header_areainner .open_account_link_area .open_account_link{display: inherit;}
+
+@media only screen and (min-width: 1440px){}
+@media only screen and (max-width: 1199px){}
+@media only screen and (max-width: 991px){}
+@media only screen and (max-width: 767px){}
+@media only screen and (max-width: 575px){}
+@media only screen and (max-width: 479px){}
+@media only screen and (max-width: 459px){}
