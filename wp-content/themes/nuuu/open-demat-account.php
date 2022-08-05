@@ -20,7 +20,7 @@ get_header() ?>
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
               <div class="campaign_feature_img_area">
-                <h1><span>hi Open a Free</span><br> Demat Account</h1>
+                <h1><span>Open a Free</span><br> Demat Account</h1>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg/campaign_feature_img.svg" class="img-fluid" style="width:100%;">
               </div>
             </div>
@@ -212,7 +212,7 @@ get_header() ?>
         </div>
       </div>
       <div class="theme_how_it_works_btn_area">
-        <a href="#" class="theme_btn theme_how_it_works_btn"><span class="txt">Open Demat Account</span></a>
+        <a href="<?php echo get_home_url(); ?>/open_demat_account" class="theme_btn theme_how_it_works_btn"><span class="txt">Open Demat Account</span></a>
       </div>
     </div>
   </section>

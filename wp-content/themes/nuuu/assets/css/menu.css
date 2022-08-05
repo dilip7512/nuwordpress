@@ -40,15 +40,15 @@
 .navigation_area .mobile_menu{display:none;padding:0px;background:none;border:0;}
 .navigation_area .mobile_menu img{width:24px;}
 .navigation_area .navbar-nav li{}
-.navigation_area .navbar-nav li a{font-family: Inter;font-style: normal;font-weight: normal;font-size: 18px;line-height: 22px;color: #444444;padding:10px 10px;}
+.navigation_area .navbar-nav li a{font-family: Inter;font-style: normal;font-weight: normal;font-size: 18px;line-height: 22px;color: #444444;padding:10px 10px;display:block;}
 .navigation_area .navbar-nav li.active a{color:#8200ff;font-weight:600}
 .navbar-expand-lg .navbar-nav .sub-menu {position: absolute;border: 0;background-color: #fcfbff;left:10px;width:245px; margin:0px 0 0;border-radius: 0.25rem;padding:0.5rem 0;}
 .navbar-expand-lg .navbar-nav .sub-menu .menu-item a:hover{color: #8200ff;text-decoration: none;background-color: transparent;}
 .navbar-expand-lg .navbar-nav .menu-item-has-children{position:relative;cursor:pointer;}
 .navbar-expand-lg .navbar-nav .menu-item-has-children::after{background-image: url(../images/icon/drop_down4.svg);
 	width: 13px;height: 7px;background-repeat: no-repeat;background-position: center;
-	background-size: cover;border: 0;margin-left: 0px;position: relative;top: 4px;left: -5px; display: inline-block;
-    vertical-align: 0.255em;content: "";}
+	background-size: cover;border: 0;margin:auto;position: relative;top:5px;bottom:0; right:6px;display: inline-block;
+    vertical-align: 0.255em;content: "";position:absolute;}
 .menu-top-menu-container .menu li.menu-item ul.sub-menu li a {
     padding:0.3rem 1.5rem;display:block;font-size:1rem;}
 .menu-top-menu-container .menu{display:flex;}
@@ -74,3 +74,4 @@
 @media only screen and (max-width: 575px){}
 @media only screen and (max-width: 479px){}
 @media only screen and (max-width: 459px){}
+

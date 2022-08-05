@@ -995,7 +995,7 @@ background: #280DA7;
 border-radius: 30px;
 padding:60px;   
 }
-.trading_modes_secinner h1{
+.trading_modes_secinner h1,.trading_modes_secinner h2{
 font-weight: 600;
 font-size: 40px;
 line-height: 50px;
@@ -1732,7 +1732,7 @@ line-height: 30px;
     background: #fff;
     padding: 30px 30px;
     border-radius: 20px;
-     width: 410px;
+     /*width: 410px;*/
  
     display: inline-block;
     /* float: right; */
@@ -2490,7 +2490,7 @@ margin-bottom: 0px;
     line-height: 24px;
     margin-bottom:0px;  
 }
-
+.right_campaign_cupon_list li .vouchers_thumnail .gallery .gallery-item a{pointer-events: none;text-decoration: none;}
 .campaign_cupon_info{
     position:absolute;
     left:7%;
@@ -2831,7 +2831,7 @@ color:#8200ff;
     
 }
 .ipo_page_sec_blkinner .ipo_page_table tbody tr td .view_btn{
-    padding: 10px 10px;
+    /*padding: 10px 10px;*/
     font-size: 14px;
     line-height: 17px;
     color: #8200ff; 
@@ -4849,3 +4849,53 @@ border-top:1px solid #ddd;
  .journey_radio_box input:checked + .journey_radio_boxinner .icon{
     opacity:1;
  }
+
+/*.navigation_area .navbar-nav li a{display:block;}*/
+.navigation_area .navbar-nav li.menu-item-has-children a {padding-right:25px;}
+ @media all and (max-width:1024px){
+/*Header CSS Start Here   */
+.menu-top-menu-container .menu{display:block;}
+.navbar-expand-lg .navbar-collapse{display:block;}
+.navbar-expand-lg .navbar-nav{display:block;}
+.collapse:not(.show) { display: none;}
+.menu-top-menu-container .menu{display:block;}
+.navbar-expand-lg .navbar-nav .sub-menu{position:relative;width:100%;border-radius:0}
+.navigation_area .logo_area .icon img{width:90px;height:auto;}
+.top_header_button .login_btn {padding:3px 8px;font-size:13px;}
+/*Header CSS End Here   */
+ }  
+
+ 
+@media all and (max-width:991px){
+/*Home Page CSS Start Here   */
+.offering_list_iteminner .icon{text-align: right;}
+.offering_list_iteminner .icon img{width:70%;height:auto;}
+ .landing_page2_sec .offering_list_item{padding:0 15px 30px;}
+
+/*Home Page CSS End Here   */
+}
+
+ @media all and (max-width:767px){
+ .theme_bg_section2{padding:120px 0 80px;}   
+ /*Home Page CSS Start Here   */
+ .theme_bg_img_area2 .theme_bg_img2{position:relative;}
+ .theme_bg_content2{padding:50px 30px;text-align:left;}
+ .theme_bg_content2 h2{font-size:35px;line-height:50px}
+ .home_about_content h2{line-height:50px;margin-bottom:10px;}
+ .theme_bg_content{padding:50px 30px;}
+ .theme_bg_img_area{margin-top:-20px;right:0}
+ .theme_bg_img_area .theme_bg_img img{max-width:100%;}
+ .trading_modes_slider_fld .carousel-inner .carousel-item{min-height:auto;}
+ .landing_page2_other_product_sec .other_product_list_item{padding:0 15px 30px;}
+ .trading_modes_secinner{padding:40px 30px;}
+ .open_account_floating_secinner .row{display:block;}
+ .offer_form_wrapper_sticky_form_column{padding-bottom:15px;}
+ .other_product_list_iteminner .icon2 img{height: 100px;}
+ .other_product_list_iteminner .content{width: 98%;}
+ .other_product_list_iteminner .icon2{right: -10px;}
+ .other_product_list_iteminner{padding: 30px 30px 110px;min-height: auto;}
+
+ /*Home Page CSS End Here   */
+.about_ipo_content p,.about_ipo_content .des {font-size:16px;line-height:28px;}
+.left_sip_cal_page_blk .heading_ttl{margin-bottom:10px;}
+}

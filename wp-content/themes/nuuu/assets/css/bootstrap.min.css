@@ -4021,8 +4021,8 @@ input[type="submit"].btn-block {
         flex-wrap: nowrap;
     }
     .navbar-expand-lg .navbar-collapse {
-        display: -ms-flexbox !important;
-        display: flex !important;
+        display: -ms-flexbox;
+        display: flex;
         -ms-flex-preferred-size: auto;
         flex-basis: auto;
     }

@@ -95,7 +95,7 @@
       <div class="copywright_sec">
       <div class="container">
         <div class="copywright_secinner">
-    <p>Copyright ©2022, Nu Investors Technologies Private Limited. All rights reserved.</p>
+    <p>Copyright ©2022, Tecx Labs Private Limited. All rights reserved.</p>
     </div>
       </div>
     </div>

@@ -133,25 +133,24 @@
 
             <div class="col-md-4 col-sm-5 col-12 sidebar_quick_contact_blk sidebar_sip_cal_page_sec">
               <div class="sidebar_quick_contact_blkinner">
-                <div class="sidebar_quick_contact_form_area calculatior_list_area" id="sidebar">
+                 <div class="sidebar_quick_contact_form_area calculatior_list_area" id="sidebar">
                   <h4>Categories</h4>
-          				<div class="calculatior_list_areainner">
-          				  <ul>
-          				  <?php
-                    
-      	                $categories = get_categories( array(
-      	                  'post_type' => 'blog',
-      	                  // 'taxonomy' => 'BlogCategory',
-      	                    'orderby' => 'name',
-      	                    'order'   => 'ASC'
-      	                ) );
-
-      	                foreach( $categories as $category ) {
-      	                 echo '<li><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';   
-      	                }?>
-          					
-          				  </ul>
-          				</div>   
+                  <div class="calculatior_list_areainner">
+                    <ul>
+                      <?php
+                        $offering_args = array(
+                        'post_type' => 'page',
+                        'posts_per_page' => 30,
+                        'category_name' => 'Calculators'
+                        );
+                        $offering_posts = new WP_Query($offering_args);
+                        while($offering_posts->have_posts()){
+                        $offering_posts->the_post();
+                      ?>
+                          <li><a href="<?php the_permalink()?>"><?php the_title();?></a></li>
+                      <?php }?>
+                    </ul>
+                  </div>      
                 </div>
 
         				<div class="open_account_btn_area">				  

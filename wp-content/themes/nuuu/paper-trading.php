@@ -25,8 +25,6 @@ get_header() ?>
     </div>
   </section>
 
-
-
   <section class="who_we_are_overview_sec">
     <div class="container">
     <div class="theme_heading text-center">
@@ -79,7 +77,7 @@ get_header() ?>
     </div>
   </section>
 
-    <section class="demat_faq_sec">
+  <section class="demat_faq_sec">
     <div class="container">
       <?php
       $post_id = 481;
@@ -95,7 +93,6 @@ get_header() ?>
       </div>
     </div>
   </section>
-  
 </main>
 
 <?php get_footer() ?>

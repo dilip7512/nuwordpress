@@ -98,7 +98,7 @@ figure.wp-block-gallery.has-nested-images{display:none;}
 			<div class="container1">
 				<div class="offering_secinner">
 					<div class="offering_list_fld_area">
-						<div class="row offering_list_area1 desktop_fld">
+						<div class="row offering_list_area1">
 							<?php
 							$offering_args = array(
 							'post_type' => 'home-page',
@@ -110,7 +110,7 @@ figure.wp-block-gallery.has-nested-images{display:none;}
 							$offering_posts->the_post();
 							?>
 							
-							<div class="col-md-4 offering_list_item">
+							<div class="col-lg-4 col-md-6 offering_list_item">
 								<div class="offering_list_iteminner">
 									<div class="content">
 										<h4><?php the_title();?></h4>
@@ -179,7 +179,7 @@ figure.wp-block-gallery.has-nested-images{display:none;}
 					<div class="col-md-6 col-sm-6 col-12">
 						<div class="theme_bg_content2">
 							<h2>Take On Markets With Our<br> Advanced Mobile App</h2>
-							<a href="#" class="find_out_link">
+							<a target="_blank" href="https://play.google.com/store/apps/details?id=com.nuuu.tradingapp" class="find_out_link">
 								<span class="icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/apple.svg" class="img-fluid" alt="" title=""></span> |
 								<span class="icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/app.svg" class="img-fluid" alt="" title=""></span>
 								<span class="txt">Get The App</span>
@@ -237,7 +237,7 @@ figure.wp-block-gallery.has-nested-images{display:none;}
 						$post_id = 269;
 						$queried_post = get_post($post_id);
 					?>
-					<div class="col-md-7 col-sm-12 col-12 graph_area_column">
+					<div class="col-lg-7 col-md-12 col-12 graph_area_column">
 						<div class="graph_area">
 							<div class="row">
 								<div class="col-md-6 col-sm-6 col-12 graph_area_blk">
@@ -256,7 +256,7 @@ figure.wp-block-gallery.has-nested-images{display:none;}
 							</div>
 						</div>
 					</div>
-					<div class="col-md-5 col-sm-12 col-12 content_column">
+					<div class="col-lg-5 col-md-12 col-12 content_column">
 						
 						<div class="content_area">
 							<h2><?php echo $queried_post->post_title; ?></h2>
@@ -270,7 +270,7 @@ figure.wp-block-gallery.has-nested-images{display:none;}
 	<section class="trading_modes_sec landing_page2_trading_modes_sec pb-5">
 		<div class="container">
 			<div class="trading_modes_secinner">
-			<h1>Two Trading Modes</h1>
+			<h2>Two Trading Modes</h2>
 			<div id="carousel" class="carousel slide vertical" data-ride="carousel">
 				<div class="row" >
 					<div class="col-md-2 trading_modes_nav_slider">
@@ -290,7 +290,7 @@ figure.wp-block-gallery.has-nested-images{display:none;}
 					</div>
 					<div class="col-md-10 trading_modes_slider_fld">
 						<div class="row">
-							<div class="col-md-6 col-sm-12 col-12">
+							<div class="col-lg-6 col-md-12 col-12">
 								<div class="trading_modes_block_slider_blk">
 								<div class="carousel-inner" role="listbox">
 								<div class="carousel-item active">
@@ -313,7 +313,7 @@ figure.wp-block-gallery.has-nested-images{display:none;}
 								</div>
 							</div>
 							
-							<div class="col-md-6 col-sm-12 col-12">
+							<div class="col-lg-6 col-md-12 col-12">
 								<?php
 								$post_id = 272;
 								$queried_post = get_post($post_id);
@@ -351,7 +351,7 @@ figure.wp-block-gallery.has-nested-images{display:none;}
 							while($explore_posts->have_posts()){
 							$explore_posts->the_post();
 						?>
-						<div class="col-md-4 other_product_list_item">
+						<div class="col-lg-4 col-md-6 other_product_list_item">
 							<div class="other_product_list_iteminner">
 								<div class="content">
 									<h4><?php the_title();?></h4>

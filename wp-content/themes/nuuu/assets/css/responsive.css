@@ -211,6 +211,7 @@ body {
 .navigation_area .navbar-nav li a{
 	font-size:16px;
 	line-height:20px;
+    display:block;
 }
 .read_more_link {
     font-size: 16px;
@@ -695,7 +696,8 @@ font-size: 16px;
 
 }
 
-@media only screen and (max-width: 991px){
+/*@media only screen and (max-width: 991px){*/
+@media only screen and (max-width: 1024px){
 .section_lead_form_green .section_blue:after, .section_blue:before {
     left: 93%;
     top: 53%;
@@ -867,7 +869,7 @@ font-size: 16px;
 }
 
 .other_product_list_area2.desktop_fld{
-	display:none;
+	/*display:none;*/
 }
 .other_product_list_area2.tab_fld{
 	display:block;
@@ -2142,7 +2144,7 @@ font-size:25px;
     height: 110px;
 }
 .other_product_list_iteminner .content {   
-    max-width: 200px;
+    /*max-width: 200px;*/
 }
 .sidebar_quick_contact_blkinner {
     padding-left: 0%;
@@ -2289,3 +2291,5 @@ font-size:25px;
     left: 36%;
 }
 }
+
+
