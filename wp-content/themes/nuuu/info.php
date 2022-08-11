@@ -77,7 +77,21 @@ get_header() ?>
             <div class="col-md-4 col-sm-5 col-12 sidebar_quick_contact_blk blog_sidebar_area" style="display:block;">
                <?php get_sidebar('form') ?>
                <?php get_sidebar('blog') ?>
-              
+ <!--  <?php
+            $offering_args = array(
+            'post_type' => 'blog',
+            'posts_per_page' => 30,
+             'category_name' => $cat_name
+            );
+            $cat_name = new WP_Query($offering_args);
+            while($cat_name->have_posts()){
+            $cat_name->the_post();
+          ?>
+              <li><a href="<?php the_permalink()?>"><?php the_title();?></a></li>
+          <?php }?>  -->           
+
+
+
 
               <div class="blog_sidebar_widget">
                 <div class="blog_sidebar_widget_ttl">

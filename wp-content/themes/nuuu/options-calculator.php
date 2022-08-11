@@ -84,7 +84,7 @@
                                 <span class="ttl">Interest (%)</span>
                                 <input class="range-slider__range" type="range" value="7" min="0" max="100">
                                 <span class="value-change-min">
-                                  <span class="value22 value-change">>
+                                  <span class="value22 value-change">
                                     <input id="interestPerc" class="form-control range-slider__value"
                                     type="number" tabindex="513"
                                     onkeyup="siteCommonJS.validateMonetoryValue(this)"
@@ -96,7 +96,7 @@
                                 <span class="ttl">Volatility (%)</span>
                                 <input class="range-slider__range" type="range" value="18" min="0" max="100">
                                 <span class="value-change-min">
-                                  <span class="value22 value-change">>
+                                  <span class="value22 value-change">
                                     <input id="volatilityPerc" class="form-control range-slider__value"
                                         tabindex="514" type="number" maxlength="6"
                                         placeholder="Volatilty" value="18">
@@ -107,7 +107,7 @@
                                 <span class="ttl">Div.Yield (%)</span>
                                 <input class="range-slider__range" type="range" value="0" min="0" max="100">
                                 <span class="value-change-min">
-                                  <span class="value22 value-change">>
+                                  <span class="value22 value-change">
                                     <input id="dividentYield" class="form-control range-slider__value"
                                     tabindex="515" maxlength="6"
                                     onkeyup="siteCommonJS.validateMonetoryValue(this)"
@@ -243,33 +243,7 @@
             </div>
 
             <div class="col-md-4 col-sm-5 col-12 sidebar_quick_contact_blk sidebar_sip_cal_page_sec">
-              <div class="sidebar_quick_contact_blkinner">
-                <div class="sidebar_quick_contact_form_area calculatior_list_area" id="sidebar">
-                  <h4>Categories</h4>
-          				<div class="calculatior_list_areainner">
-          				  <ul>
-          				  <?php
-                    
-      	                $categories = get_categories( array(
-      	                  'post_type' => 'blog',
-      	                  // 'taxonomy' => 'BlogCategory',
-      	                    'orderby' => 'name',
-      	                    'order'   => 'ASC'
-      	                ) );
-
-      	                foreach( $categories as $category ) {
-      	                 echo '<li><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';   
-      	                }?>
-          					
-          				  </ul>
-          				</div>   
-                </div>
-
-        				<div class="open_account_btn_area">				  
-        				  <a href="#" class="open_account_btn">Open Demat Account</a>
-        				</div>
-
-              </div>
+              <?php get_sidebar('calculator') ?>
             </div>
 
           </div>
