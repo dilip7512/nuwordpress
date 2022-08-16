@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: Category
+* Template Name: Blog Category
 */
  
 get_header(); ?> 

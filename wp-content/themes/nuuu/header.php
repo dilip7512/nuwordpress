@@ -29,12 +29,14 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/menu.css" type="text/css">
 
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css" type="text/css">
+  <!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css" type="text/css"> -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     .navigation_area .desktop_menu {display: none;}
   </style>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-3.4.1.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/swiper.min.js" type="text/javascript"></script>
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/swiper.min.css" rel="stylesheet" type="text/css" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-215560770-1"></script>
   <script>

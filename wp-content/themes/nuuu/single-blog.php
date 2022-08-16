@@ -89,23 +89,23 @@
               </div>
               <div class="blog_sidebar_widget_content">
                 <ul>
-                  <?php wp_list_categories( array(
-                      'orderby'    => 'name',
-                      'show_count' => true,
-                      'exclude'    => array( 10 )
-                  ) ); ?>
-                 <!--  <?php
-                 $categories = get_the_category( array(
-                  'post_type' => 'blog',
-                  'taxonomy' => 'BlogCategory',
-                    'orderby' => 'name',
-                    'order'   => 'ASC'
-                ) );
-                 
-                foreach( $categories as $category ) {
-                 echo '<li><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';   
-                }?> -->
-                 
+                  <?php
+                     $args = array(
+                        'post_type' => 'blog',
+                         'taxonomy' => 'BlogCategory',
+                         'orderby' => 'name',
+                         'order'   => 'ASC'
+                     );
+
+                     $cats = get_categories($args);
+                     foreach($cats as $cat) {
+                  ?>
+                       <li> <a href="<?php echo get_category_link( $cat->term_id ) ?>">
+                             <?php echo $cat->name; ?>
+                        </a></li>
+                  <?php
+                     }
+                  ?>
                 </ul>
               </div>
             </div>

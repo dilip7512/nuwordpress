@@ -120,16 +120,16 @@ function unnn_add_sidebar() {
         )
     );
 // Archives Sidebar
-        register_sidebar( array(
-            'name'      => 'Archives Sidebar',
-            'id'        => 'sidebar-7',
-            'description'   => 'Add one widget, as it will be the 3nd widget in the footer',
-            'before_widget' => '<div id="%1$s" class="widget %2$s"><div class="ower_footer_content">',
-            'after_widget'  => '</div></div>',
-            'before_title'  => '<h3 class="widget-title">',
-            'after_title'   => '</h3>'
-        )
-    );
+    //     register_sidebar( array(
+    //         'name'      => 'Archives Sidebar',
+    //         'id'        => 'sidebar-7',
+    //         'description'   => 'Add one widget, as it will be the 3nd widget in the footer',
+    //         'before_widget' => '<div id="%1$s" class="widget %2$s"><div class="ower_footer_content">',
+    //         'after_widget'  => '</div></div>',
+    //         'before_title'  => '<h3 class="widget-title">',
+    //         'after_title'   => '</h3>'
+    //     )
+    // );
 
 }
 
@@ -232,7 +232,6 @@ add_action( 'init', 'add_tags_to_pages');
 
 
 
-
 require get_template_directory().'/inc/paper-trading.php';
 require get_template_directory().'/inc/blog-post.php';
 require get_template_directory().'/inc/who-we-are.php';
@@ -240,5 +239,6 @@ require get_template_directory().'/inc/all-faq.php';
 require get_template_directory().'/inc/open-demat-account.php';
 require get_template_directory().'/inc/campaign.php';
 require get_template_directory().'/inc/home.php';
+// require get_template_directory().'/inc/demo.php';
 
 ?>

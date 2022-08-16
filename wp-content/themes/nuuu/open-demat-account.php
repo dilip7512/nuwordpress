@@ -212,7 +212,7 @@ get_header() ?>
         </div>
       </div>
       <div class="theme_how_it_works_btn_area">
-        <a href="<?php echo get_home_url(); ?>/open_demat_account" class="theme_btn theme_how_it_works_btn"><span class="txt">Open Demat Account</span></a>
+        <a href="https://www.nuuu.com/kyc" target="_blank" class="theme_btn theme_how_it_works_btn"><span class="txt">Open Demat Account</span></a>
       </div>
     </div>
   </section>

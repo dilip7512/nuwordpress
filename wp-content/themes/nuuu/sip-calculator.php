@@ -90,7 +90,7 @@
         				  <div class="sip_calculator_area">
         				  	<div class="page-container">
                       <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="col-lg-6 col-md-12">
                           <h3 class="heading_ttl">SIP Calculator</h3>
                           <div class="switch-container" style="display:none;">
                               <div class="radio-button">
@@ -143,7 +143,7 @@
                           </div>
                           </br/>                          
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="col-lg-6 col-md-12">
                           <div class="invesment_dtls_area">
                             <h4>Total Value of Your Investment</h4>
                             <h3><span class="value-show">Rs.&nbsp;<input type="text" id="totalInvested" name="totalInvested" value="3000000"/></span></h3>

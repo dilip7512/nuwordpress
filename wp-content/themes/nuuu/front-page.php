@@ -5,6 +5,8 @@
 {width:100%}
 figure.wp-block-gallery.has-nested-images{display:none;}
 </style>
+
+
 <main class="body_container">
 	<section class="home_banner_banner_sec landing_page2_home_banner_banner_sec">
       <div class="container">
@@ -41,30 +43,30 @@ figure.wp-block-gallery.has-nested-images{display:none;}
 
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 swiper-container slider1">
               
-              <div class="landing_page2_top_banner_slider_area desktop_fld">
-                <div class="landing_page2_top_banner_item landing_page2_top_banner_item1">
+              <div class="landing_page2_top_banner_slider_area swiper-wrapper">
+                <div class="swiper-slide landing_page2_top_banner_item landing_page2_top_banner_item1">
                   <div class="landing_page2_top_banner_iteminner">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg/watchlist_mockup1.png" class="img-fluid" alt="" title="">
                     <h4>Get Free Brokerage*<br>For First 90 Days</h4>
                   </div>
                 </div>
-                <div class="landing_page2_top_banner_item landing_page2_top_banner_item2">
+                <div class="swiper-slide landing_page2_top_banner_item landing_page2_top_banner_item2">
                   <div class="landing_page2_top_banner_iteminner">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg/funds_mockup1.png" class="img-fluid" alt="" title="">
                     <h4>Free Access To Paper<br>Trading Platform</h4>
                   </div>
                 </div>
-                <div class="landing_page2_top_banner_item landing_page2_top_banner_item3">
+                <div class="swiper-slide landing_page2_top_banner_item landing_page2_top_banner_item3">
                   <div class="landing_page2_top_banner_iteminner">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg/dashboard_mockup1.png" class="img-fluid" alt="" title="">
                     <h4>₹0 on Equity<br>Delivery Trades<br>& <br>₹20 on Intraday<br>and F&O </h4>
                   </div>
                 </div>
               </div>
-
-              <div class="landing_page2_top_banner_slider_area top_banner_slider tab_fld owl-carousel">
+              <div class="swiper-pagination"></div>
+         <!--      <div class="landing_page2_top_banner_slider_area top_banner_slider tab_fld owl-carousel">
                 <div class="landing_page2_top_banner_item landing_page2_top_banner_item1">
                   <div class="landing_page2_top_banner_iteminner">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg/watchlist_mockup1.png" class="img-fluid" alt="" title="">
@@ -83,11 +85,12 @@ figure.wp-block-gallery.has-nested-images{display:none;}
                     <h4>₹0 on Equity<br>Delivery Trades<br>& <br>₹20 on Intraday<br>and F&O </h4>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
             
           </div>
         </div>
+
       </div>
     </section>
 	<section class="offering_sec landing_page2_sec">
@@ -339,8 +342,8 @@ figure.wp-block-gallery.has-nested-images{display:none;}
 		</div>
 		<div class="container">
 			<div class="other_product_secinner">
-				<div class="other_product_list_fld_area">
-					<div class="row other_product_list_area2 desktop_fld">
+				<div class="other_product_list_fld_area swiper-container slider2">
+					<div class="row other_product_list_area2 desktop_fld swiper-wrapper">
 						<?php
 							$explore_args = array(
 							'post_type' => 'home-page',
@@ -351,7 +354,7 @@ figure.wp-block-gallery.has-nested-images{display:none;}
 							while($explore_posts->have_posts()){
 							$explore_posts->the_post();
 						?>
-						<div class="col-lg-4 col-md-6 other_product_list_item">
+						<div class="col-lg-4 col-md-6 other_product_list_item swiper-slide">
 							<div class="other_product_list_iteminner">
 								<div class="content">
 									<h4><?php the_title();?></h4>
@@ -364,9 +367,9 @@ figure.wp-block-gallery.has-nested-images{display:none;}
 						</div>
 						
 						<?php }?>
-
+						<div class="swiper-pagination"></div>
 					</div>
-					<div class="other_product_list_area other_product_list_area2 owl-carousel tab_fld">
+					<!-- <div class="other_product_list_area other_product_list_area2 owl-carousel tab_fld">
 						<div class="other_product_list_item bg">
 							<div class="other_product_list_iteminner">
 								<div class="content">
@@ -400,7 +403,7 @@ figure.wp-block-gallery.has-nested-images{display:none;}
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -447,4 +450,35 @@ figure.wp-block-gallery.has-nested-images{display:none;}
 	</div>
 </div>
 </div>
+
+  <script>
+  	if (window.innerWidth <= 991) {
+    var swiper = new Swiper('.slider1', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      autoplay: {
+       delay:3000,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+ }
+if (window.innerWidth <= 991) {
+    var swiper = new Swiper('.slider2', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      autoplay: {
+       delay:3000,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+
+    }
+  </script>
+
 <?php get_footer() ?>

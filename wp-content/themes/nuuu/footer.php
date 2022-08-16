@@ -113,8 +113,11 @@
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
   <script>
 
+
+jQuery(document).ready(function(){ 
   $(".carousel").carousel({
     interval: 3000
+  });
   });
 
   //scroll slides on swipe for touch enabled devices
@@ -137,7 +140,7 @@
 	
 
 </script>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     
   $ (window).ready (function () {
     setTimeout (function () {
@@ -145,7 +148,7 @@
     }, 5000)
   })  
    
-</script>
+</script> -->
 
 <script>
 
