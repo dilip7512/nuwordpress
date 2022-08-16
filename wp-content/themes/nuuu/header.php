@@ -85,12 +85,8 @@
                         <?php// get_search_form(); ?>
                        
                       <div class="header_search_areainner"> 
-                        <?php echo do_shortcode( '[ivory-search id="314"]' ); ?>
-                     <!-- <form role="search" method="get" id="searchform" class="searchform" action="<?php echo home_url( '/' ); ?>">
-                           <label class="screen-reader-text" for="s">Search for:</label> 
-                         <button class="header_search_btn" id="searchsubmit" value="Search" type="submit"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/search.svg" class="img-fluid"></button>
-                          <input class="header_search_input" value="" name="s" id="s" type="text" placeholder="<?php the_search_query(); ?>"> 
-                      </form>-->
+                        <?php// echo do_shortcode( '[ivory-search id="314"]' ); ?>
+
                       </div>
                     </div>
                  
